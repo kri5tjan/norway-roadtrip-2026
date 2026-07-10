@@ -1,1 +1,0 @@
-# norway-roadtrip-2026

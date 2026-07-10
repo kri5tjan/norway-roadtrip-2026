@@ -1,0 +1,29 @@
+# Norges-roadtripen 2026
+
+En mobilvennlig GitHub Pages-side for roadtripen 13.–26. juli 2026. Siden inneholder:
+
+- dag-for-dag-rute fra Drammen til Gaula
+- planlagte og valgfrie aktiviteter
+- overnattingsalternativer og ladestopp
+- levende værprognoser fra Open-Meteo
+- kartlenker, live veistatus og delingsknapp
+
+## Publisering
+
+Nettsiden publiseres automatisk med GitHub Actions. Hvis GitHub Pages ikke allerede er aktivert:
+
+1. Åpne **Settings → Pages** i repositoriet.
+2. Velg **GitHub Actions** under **Source**.
+3. Åpne fanen **Actions** og kjør arbeidsflyten **Deploy GitHub Pages** én gang om nødvendig.
+
+Den offentlige adressen blir:
+
+`https://kri5tjan.github.io/norway-roadtrip-2026/`
+
+## Redigering
+
+- Reiseinnholdet ligger i `index.html`.
+- Farger og layout ligger i `styles.css`.
+- Vær, nedtelling og deling ligger i `script.js`.
+
+Værdata leveres av [Open-Meteo](https://open-meteo.com/). Prognosen oppdateres hver gang siden åpnes og krever ingen API-nøkkel.
